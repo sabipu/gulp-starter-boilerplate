@@ -1,0 +1,42 @@
+{
+  "name": "gulpstarter",
+  "version": "1.0.0",
+  "description": "Simple Gulp boilerplate to write HTML/CSS/SCSS",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "gulp",
+    "gulp-starter-kit",
+    "sass",
+    "scss"
+  ],
+  "author": "Bipu Bajgai",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "browser-sync": "^2.26.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-dependents": "^1.2.5",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs-extra": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
